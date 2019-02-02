@@ -57,7 +57,7 @@ def get_page_data(html):
                 'district': district,
                 'price_date': price_date,
                 'description': description,
-                'redirect': redirect,}
+                'redirect': redirect}
         write_csv(data)
 
 
@@ -76,5 +76,5 @@ def main():
 
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     main()
